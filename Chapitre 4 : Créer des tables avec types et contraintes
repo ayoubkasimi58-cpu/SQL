@@ -1,0 +1,21 @@
+Chapitre 4 : Créer des tables avec types et contraintes
+
+Dans ce chapitre, nous avons appris comment créer des tables en SQL en utilisant l’instruction CREATE TABLE. Cette commande permet de définir la structure d’une table en spécifiant les colonnes, les types de données et les contraintes.
+
+Nous avons aussi découvert plusieurs types de données, comme INT pour les nombres, VARCHAR pour les textes courts, TEXT pour les textes longs, et DATE pour les dates.
+
+Le chapitre explique également les contraintes importantes utilisées pour organiser et sécuriser les données :
+
+PRIMARY KEY : identifie chaque enregistrement de manière unique.
+
+NOT NULL : empêche les valeurs vides dans une colonne.
+
+UNIQUE : garantit que les valeurs ne se répètent pas.
+
+AUTO_INCREMENT : permet d’augmenter automatiquement l’identifiant.
+
+FOREIGN KEY : crée une relation entre deux tables.
+
+Dans l’exemple du blog, nous avons créé trois tables : Utilisateur, Article et Commentaire, avec des relations entre elles grâce aux clés étrangères.
+
+Enfin, nous avons appris à vérifier les tables créées avec les commandes SHOW TABLES et DESCRIBE.
